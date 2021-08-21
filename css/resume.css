@@ -1,0 +1,83 @@
+/*RESUME*/
+
+.section-padding{
+	padding: 50px;
+}
+
+h1{
+	margin-bottom: 20px;
+}
+
+.resume li{
+	margin: 20px;
+	list-style-image: url(../img/iconvinetas.svg);
+}
+
+.resume_texto{
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+.resume_texto p{
+	font-size: 0.7em;
+	/*margin-left: 20px;*/
+	/*margin-right: 20px;*/
+}
+
+.resume_texto h3{
+	font-size: 20px;
+	margin-bottom: 10px;
+	/*margin-left: 20px;*/
+	/*margin-right: 20px;*/
+}
+
+
+.resume_experience, .resume_education{
+	padding: 20px;
+}
+
+.resume_experience legend, .resume_education legend{
+	border-radius: 15px;
+	border-width: 1px;
+	background-color: #900C3F;
+	font-size: 20px;
+	/*margin-left: -20px;*/
+	margin-bottom: 10px;
+}
+
+h5{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+
+.resume div{
+	text-align: justify;
+	/*text-justify: inter-word;*/
+}
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 992px){
+
+	.resume_texto{
+		font-size: 24px;
+	}
+
+	.resume_experience{
+		width: 50%;
+		/*position: relative;*/
+		display: inline-block;
+		font-size: 16px;
+	}
+
+	.resume_education{
+		width: 48%;
+		display: inline-block;
+		/*position: relative;*/
+		float: right;
+		font-size: 16px;
+	}
+}
+

@@ -1,0 +1,47 @@
+/*ABOUT*/
+
+.section-padding{
+	padding: 50px;
+}
+
+.about_texto{
+	font-size: 22px;	
+	/*width: 100%;	*/
+}
+
+.about_texto h1{
+	margin-bottom: 20px;
+}
+
+.about_texto p{
+	font-size: 0.7em;
+	padding-bottom: 30px;
+	text-align: justify;
+}
+
+
+/*IMAGEN ABOUT*/
+
+.about_texto img{
+	display: block;
+	margin: auto;
+	border-radius: 15px;
+	width: 70%;
+}
+
+
+@media only screen and (min-width: 992px){
+
+	.about_texto{
+		font-size: 24px;
+	}
+
+	.about_texto img{
+		width: 50%;
+	}
+}
+
+
+
+
+

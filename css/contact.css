@@ -1,0 +1,64 @@
+.section-padding{
+	padding: 50px;
+}
+
+
+.contact_title{
+	font-size: 22px;
+	margin-bottom: 20px;	
+}
+
+.contact_imagen{
+	width: 100%;
+}
+
+.contact_imagen img{
+	width: 100%;	
+	margin-top:20px;
+	margin-bottom: 20px;
+	clip-path: circle(50% at 50% 50%);
+	background-color: #FFC300;
+}
+
+.contact_form{
+	padding: 10px;
+}
+
+.contact_form legend{
+    border-radius: 15px;
+    border-width: 1px;
+    background-color: #900C3F;
+	font-size: 20px;
+	/*margin-left: 20px;*/
+	margin-bottom: 10px;
+}
+
+.contact_form label, .contact_form textarea, 
+.contact_form p{
+	margin-left: 10px;
+}
+
+.contact_form input{
+	margin-left: 20px;
+}
+
+@media only screen and (min-width: 992px){
+
+	.contact_title{
+	font-size: 24px;
+}
+
+	.contact_imagen{
+		display: inline-block;
+		width: 50%;
+	}
+
+	.contact_form{
+		width: 48%;
+		/*position: relative;*/
+		float: right;
+		margin-top: 10px;
+		object-fit: contain;
+
+	}
+}

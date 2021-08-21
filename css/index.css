@@ -1,0 +1,51 @@
+/*INDEX*/
+
+/*PRESENTACION*/
+
+.section-padding{
+	padding: 50px;
+}
+
+.presentacion_texto{
+	font-size: 22px;	
+	padding: 20px;
+	display: inline-block;
+	width: 100%;	
+}
+
+.presentacion_texto h1{
+	margin-bottom: 20px;
+}
+
+.presentacion_texto p{
+	font-size: 0.8em;
+	text-align: justify;
+}
+
+.presentacion_imagen{ 
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 2px;
+}
+
+.presentacion_imagen img{
+	width: 100%;	
+	clip-path: circle(50% at 50% 50%);
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 992px){
+	.presentacion_texto{
+			width: 50%;
+			position: relative;
+
+			bottom: 225px;
+			font-size: 24px;
+		}
+
+		.presentacion_imagen{
+			width: 48%;
+		}
+
+}

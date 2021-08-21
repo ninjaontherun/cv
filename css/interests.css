@@ -1,0 +1,92 @@
+.section-padding{
+	padding: 50px;
+}
+
+
+.interests_title{
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+
+.interests_title h1{
+	margin-bottom: 20px;
+}
+
+.interests_title p{
+	font-size: 0.7em;
+}
+
+
+.interests_music{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.interests_imagenes1 img{
+	border-radius: 15px;
+	width: 100%;
+}
+
+.interests_imagenes2 img{
+	border-radius: 15px;
+	width: 100%;
+}
+
+.interests_imagenes3 img{
+	border-radius: 15px;
+	width: 100%;
+}
+
+.interests_imagenes4 img{
+	border-radius: 15px;
+	width: 100%;
+}
+
+.interests_video{
+	margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 992px){
+
+	.interests_title{
+		font-size: 24px
+	}
+
+	.interests_imagenes1{
+		display: inline-block;
+		width: 49%;
+		position: relative;
+		top: 0px;
+	}
+
+	.interests_imagenes2{
+		display: inline-block;
+		width: 50.5%;
+		position: relative;
+		top: -9vw;   
+	}
+
+	.interests_imagenes3{
+		display: inline-block;
+		width: 49%;
+		position: relative;
+		top: -14.7vw;
+	}
+
+	.interests_imagenes4{
+		display: inline-block;
+		width: 50.5%;
+		position: relative;
+		top: -9vw;
+
+	}
+
+	.interests_video{
+		position: relative;
+		top: -9vw;
+
+	}
+}
+
